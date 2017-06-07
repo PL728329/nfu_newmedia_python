@@ -27,6 +27,7 @@ def get_weather(city_name):
         weather_html_life = response_life.read()
         json_data_life = json.loads(weather_html_life)
         
+
         
         #未来三天天气预报api
         url_forecast = ('https://free-api.heweather.com/v5/forecast?city=CN{code}&key=50246ea62fbd405c9315e51d2a1d29c0'.format(code=city_code))
