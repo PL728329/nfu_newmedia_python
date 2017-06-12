@@ -55,6 +55,7 @@ def get_weather(city_name):
 
 
         #=====================
+        '''本日'''
         data = json_data['HeWeather5'][0]
         #城市名
         city = data['basic']['city']
@@ -142,7 +143,7 @@ def get_weather(city_name):
                 #风速
         spd2 = wind2['spd']
 
-                    #预报日期2
+                    #预报日期3
         date3 = data['daily_forecast'][2]['date']
 
             #天文数值
