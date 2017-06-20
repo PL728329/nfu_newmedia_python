@@ -1,6 +1,6 @@
  # -*- coding: utf-8 -*- 
 from flask import Flask, render_template, request, escape
-from weather_forecast import get_weather
+from weather_forecast import get_weather, get_form
 
 app = Flask(__name__)
 
