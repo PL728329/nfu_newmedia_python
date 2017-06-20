@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request, escape
 from weather_forecast import get_weather, get_form
 
-app = Flask(__name__)
+
 
 @app.route('/content', methods=['POST'])
 def show_content() -> 'html':
