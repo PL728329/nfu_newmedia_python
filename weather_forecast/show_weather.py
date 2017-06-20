@@ -73,6 +73,7 @@ def show_content() -> 'html':
 def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
+                           the_city_list = get_form(),
                            the_title='观测站')
 
 
