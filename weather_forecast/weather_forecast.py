@@ -22,7 +22,7 @@ def get_weather(city_name):
         json_data = json.loads(weather_html)
         #print(json_data)
         
-       
+        #生活指数api
         url_life = ('https://free-api.heweather.com/v5/suggestion?city=CN{code}&key=50246ea62fbd405c9315e51d2a1d29c0'.format(code=city_code))
         response_life = urllib.request.urlopen(url_life)
         weather_html_life = response_life.read()
