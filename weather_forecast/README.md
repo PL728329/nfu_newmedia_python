@@ -10,7 +10,7 @@ weather_forecast
 ### 模块
 * [urllib.request](https://docs.python.org/3.5/library/urllib.html)
 ### 数据
-* 城市名及城市码文档
+* [城市名及城市码文档](https://github.com/Observer-L/nfu_newmedia_python/blob/master/weather_forecast/city.txt)
 ### API
 * [和风天气](https://www.heweather.com//)
 每天限量免费访问4000次
