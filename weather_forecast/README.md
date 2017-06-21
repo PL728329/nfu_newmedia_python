@@ -8,7 +8,7 @@ weather_forecast
 用户得到输出结果为：城市的三天天气信息丶生活指数丶经纬度
 ## 从输入到输出，除了flask模块,本组作品使用了：
 ### 模块
-* [urllib.request](https://docs.python.org/3.5/library/urllib.htmlm)
+* [urllib.request](https://docs.python.org/3.5/library/urllib.html)
 ### 数据
 * 城市名及城市码文档
 ### API
