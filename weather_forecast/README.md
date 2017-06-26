@@ -2,7 +2,7 @@ weather_forecast
 天气查询系统
 # 简介 
 可查询全国大部分城市或区的天气信息
-* [和风天气中国城市列表](https://cdn.heweather.com/china-city-list.txt/)
+* [和风天气中国城市列表](https://cdn.heweather.com/china-city-list.txt)
 ## 输入：
 用户通过输入框输入城市名或者通过下拉框选择城市
 ## 输出：
